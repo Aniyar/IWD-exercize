@@ -1,0 +1,12 @@
+def multiply_list(items):
+    """
+    This function takes a list of numbers as input and returns the product of all the numbers in the list.
+    """
+    product = 1
+    for i in items:
+        product *= i
+    return product
+
+# Test the function with a sample list
+my_list = [1, 2, 3, 4, 5]
+print("The product of the numbers in the list is:", multiply_list(my_list))
