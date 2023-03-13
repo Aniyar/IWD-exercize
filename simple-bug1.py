@@ -1,0 +1,11 @@
+def calculate_average(numbers):
+    total = 0
+    count = 0
+    for number in numbers:
+        total += number
+    average = total / count
+    return average
+
+numbers = [1, 2, 3, 4, 5]
+average = calculate_average(numbers)
+print(f"The average of the numbers is {average}")
