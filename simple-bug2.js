@@ -3,6 +3,7 @@ function checkPassword(password) {
   if (password.length > 6) {
     result = true;
   }
+  if (password)
   return result;
 }
 
